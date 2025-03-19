@@ -7,12 +7,11 @@
 }
 
 body {
-    background: linear-gradient(90deg, #ff7e5f, #feb47b, #86a8e7);
-    
-    line-height: 1.6;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    font-family: Arial;
+    background-color: blue;
+    color: #0000ff;
+    text-align: center;
+    padding: 20px;
 }
 
 /* Header */
