@@ -41,6 +41,11 @@ main {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
+h1 {
+    margin: 0;
+    color: yellow;
+}
+
 /* Paragraph */
 .content p {
     font-size: 18px;
