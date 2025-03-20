@@ -1,17 +1,17 @@
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Times New Roman;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    font-family: Arial;
-    background-color: blue;
-    color: #0000ff;
-    text-align: center;
-    padding: 20px;
+    background: linear-gradient(135deg, #f0f8ff, #d5f4e6);
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -21,6 +21,14 @@ header {
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 /* Image Styling */
@@ -33,22 +41,12 @@ header {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    margin: 0;
-    color: green;
-}
-
 /* Paragraph */
 .content p {
-   font-family: Times New Roman;
-    font-size: 22px;
-    line-height: 1.6;
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #ffff00;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0.1);
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+    text-align: justify;
 }
 
 /* Footer */
